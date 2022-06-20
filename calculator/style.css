@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&display=swap');
+
+:root {
+	--background: #3b454e;
+	--orange: #fe3289;
+	--black: #191e26;
+	--white: #e4e3e3;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Kdam Thmor Pro';
+}
+
+.container {
+	width: max-content;
+	height: 550px;
+	margin: 20px auto;
+	background-color: #fe3289;
+}
+
+.calculator {
+	width: 320px;
+	height: 250px;
+	background-color: #3b454e;
+	top: 30px;
+	border-radius: 1rem;
+	position: relative;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result {
+	background-color: antiquewhite;
+	width: max-content;
+	height: 120px;
+}
+
+.history {
+	background-color: aqua;
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: var(--black);
+}
+
+.output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	background-color: bisque;
+}
+
+.keyboard {
+	height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+	width: 50px;
+	height: 50px;
+	margin: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-family: 'Kdam Thmor Pro';
+	font-size: 15px;
+}
